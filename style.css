@@ -1,0 +1,384 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: url("/cocogoose/Cocogoose_trial.ttf");
+}
+
+:root{
+  --primary-1: #ec5242;
+  --primary-2: #f7f7f7;  
+  --neutral-1: #fff;
+	--neutral-2: #f7f7f7;  
+  --neutral-3: #D3D3D3;
+  --secondary-1: #272A31;
+	--secondary-2: #5c5c5c;
+}
+/* Reset the default  */
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+background-color: var(--neutral-2);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 140px;
+	background-image: url("./Asset/background/background-book-shelf.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position-y: 3.5rem;
+  opacity: 0.7;
+  box-shadow: 10px 10px 5px var(--neutral-3);
+
+}
+
+nav {
+	width: 100%;
+}
+
+.nav-up {
+  display: none;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	height: 2rem;
+	background-color: var(--secondary-1);
+	padding: 1rem;
+	align-items: center;
+	gap: 2rem;
+	padding-right: 10rem;
+}
+
+.nav-up li a, .nav-up li i {
+	color: var(--neutral-1);
+	font-weight: 500;
+}
+
+.nav-down {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+	height: 4rem;
+}
+
+.hamburger {
+	display: flex;
+	padding: 1rem 0;
+	z-index: 100;
+}
+
+.nav-down-link {
+	display: none;
+	margin-right: 10rem;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.close-btn {
+	display: none;
+}
+
+.logo {
+	display: none;
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: auto;
+  background-color: rgba(235, 230, 230, 0.6);
+}
+
+.book-icons {
+  width: 100%;
+  height: 300px;
+  margin-top: 5rem;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.heading-container {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+}
+
+.heading h3 {
+  font-size: 1.8rem;
+  color: var(--primary-1);
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  color: var(--primary-1);
+  font-weight: bolder;
+  font-family: 'Cocogoose', 
+  sans-serif;
+  text-transform: capitalize;
+  line-height: 3.8rem;
+  background: url("./Asset/background/back-image-flower-texture.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.heading .intro {
+  padding: 0.5rem;
+  background-color: var(--neutral-1);
+  border: 4px solid var(--neutral-3);
+  border-radius: 0.8rem;
+}
+
+.heading .date {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 2rem;
+  padding-top: 0.8rem;
+}
+
+.heading .venue {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.heading .about {
+  line-height: 1.4rem;
+  padding: 1rem;
+}
+
+.main-program {
+  background: url(./Asset/background/black-bg-design-texture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 35rem;
+  color: var(--neutral-1);
+  padding: 0 auto
+}
+
+.main-program h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.main-program h2::after {
+  display: block;
+  height: 3px;
+  background-color: var(--primary-1);
+  content: " ";
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.exhibition, .forum, .work-shop,
+.yoga, .gust-speaker {
+  display: flex;
+  margin: 1.5rem ;
+  padding:1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-2);
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+
+.exhibition h3, .forum h3, .work-shop h3,
+.yoga h3, .gust-speaker h3 {
+  color: var(--primary-1);
+  font-weight: bold;
+}
+
+.exhibition p, .forum p, .work-shop p,
+.yoga p, .gust-speaker p {
+  text-align: left;
+  padding-left: 0.8rem;
+}
+
+.div-main-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.main-btn {
+  padding: 1.2rem;
+  background-color: var(--primary-1);
+  color: var(--neutral-1);
+  font-size: 1.5rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.div-main-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.partner {
+  background-image: url("./Asset/background/grey-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220;
+  background-image: linear-gradient(to bottom right, grey, black)
+}
+
+.partner h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--neutral-1);
+}
+
+.partner h4::after {
+  display: block;
+  height: 3px;
+  background-color: var(--primary-1);
+  content: " ";
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.partner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding-bottom: 1rem;
+}
+
+.partner-section img {
+  width: 23%;
+}
+
+footer {
+  background-color: var(--neutral-2);
+  margin-top: -2.2rem;
+}
+
+.div-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.copy-right {
+  line-height: 1.8rem;
+  font-size: 1rem;
+  color: #272A31;
+}
+
+.address {
+  z-index: 100;
+  margin-top: 34rem;
+  padding: 3rem 1.8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  height: 200px;
+}
+
+.past-session {
+  background-color: var(--neutral-1);
+  padding: 2rem 0;
+}
+
+.past-session-heading h3 {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.past-session-heading h3::after {
+  display: block;
+  height: 3px;
+  background-color: var(--primary-1);
+  content: " ";
+  width: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.past-session p {
+  text-align: center;
+}
+
+.last-year, .previous-year {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.last-year img, .previous-year img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 2rem auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255 105 105 / 53%);
+}
+
+.text-on-img {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  color: var(--neutral-1);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  word-spacing: 0.2rem;
+  z-index: 5000;
+  font-weight: bold;
+  padding: 0 4rem;
+}
