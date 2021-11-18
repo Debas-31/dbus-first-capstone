@@ -50,6 +50,9 @@ Give a ⭐️ if you like this project!
 
 ### Acknowledgments
 - Github
+- Unsplash
+- Font Awesome
+- Cindy Shin, author of the original design
 
 ## 📝 License
 
