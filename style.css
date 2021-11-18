@@ -11,6 +11,7 @@
   --neutral-3: #d3d3d3;
   --secondary-1: #272a31;
   --secondary-2: #5c5c5c;
+  --secondary-3: #000;
 }
 
 /* Reset the default  */
@@ -125,7 +126,8 @@ nav {
 
 .home-mob,
 .about-mob {
-  color: var(--secondary-1);
+  color: var(--secondary-3);
+  font-size: 1.2rem;
 }
 
 .logo {
@@ -169,7 +171,7 @@ nav {
 }
 
 .heading h1 {
-  font-size: 3rem;
+  font-size: 2.9rem;
   color: var(--primary-1);
   font-weight: bolder;
   font-family:
@@ -192,7 +194,7 @@ nav {
 
 .heading .date {
   font-family: 'Cocogoose', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 0.8rem;
 }
 
@@ -510,6 +512,7 @@ footer {
 
   .logo {
     display: inline-block;
+    padding-left: 8rem;
   }
 
   .close-btn {
@@ -529,8 +532,19 @@ footer {
     justify-content: flex-end;
     margin-right: 10rem;
     margin-top: -5.2rem;
-    gap: 4rem;
+    gap: 3rem;
     background: unset;
+    width: 100%;
+  }
+
+  .nav-down-link li a {
+    color: var(--secondary-1);
+    font-size: 1rem;
+  }
+
+  .book-link {
+    padding: 0.3rem 2rem;
+    border: 3px solid var(--primary-1);
   }
 
   .main-btn,
@@ -539,18 +553,20 @@ footer {
   }
 
   .heading {
-    padding: 3rem 0 0 3rem;
+    padding: 1rem 0 0 8rem;
   }
 
-  .heading h1,
-  .heading p,
-  .heading h2 {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  .heading h1 {
+    width: 100%;
+    max-width: 50%;
+    line-height: 3.5rem;
   }
 
   .heading .intro {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    line-height: 1.6rem;
+    max-width: 50%;
   }
 
   .main-program-div {
@@ -613,7 +629,7 @@ footer {
   .about {
     margin: 2rem 0;
     padding: 2rem 1rem;
-    line-height: 2rem;
+    line-height: 1rem;
   }
 
   .div-address {
