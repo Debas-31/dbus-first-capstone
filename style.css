@@ -124,10 +124,17 @@ nav {
   color: var(--primary-1);
 }
 
-.home-mob,
-.about-mob {
+.home-link,
+.about-link, .program-link, .sponsor-link, .book-link {
   color: var(--secondary-3);
-  font-size: 1.2rem;
+}
+
+.home-link:hover,
+.about-link:hover, .program-link:hover, .sponsor-link:hover, .book-link:hover {
+  color: var(--primary-1);
+  line-height: 10px;
+  font-weight: 2px;
+  text-decoration-skip-ink: var(--primary-1) ;
 }
 
 .logo {
@@ -288,13 +295,11 @@ nav {
 }
 
 .partner {
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: linear-gradient(to bottom right, grey, black);
 }
 
 .partner h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   padding-top: 1rem;
@@ -303,31 +308,39 @@ nav {
 
 .partner h4::after {
   display: block;
-  height: 3px;
+  height: 2px;
   background-color: var(--primary-1);
   content: " ";
-  width: 50px;
+  width: 40px;
   margin: 0 auto;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .partner-section {
   display: flex;
   justify-content: center;
+  gap: 2rem;
   align-items: center;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding-bottom: 1rem;
 }
 
 .partner-section img {
-  width: 23%;
+  width: 10%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+.partner-section img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
 }
 
 footer {
   background-color: var(--neutral-2);
-  margin-top: -2.2rem;
-  padding: 0 3rem;
 }
 
 .div-footer {
@@ -335,7 +348,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .copy-right {
@@ -442,6 +455,7 @@ footer {
 .speaker-container {
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
   margin: auto;
   row-gap: 2rem;
   width: 100%;
