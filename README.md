@@ -2,7 +2,7 @@
 
 # dbus-first-capstone: Expo Book Fair
 
->This project focus on different topics of Microverse curriculum in the first module including html, css, js, how to implement DOM using javascript functions and methods and different tools and technologies.
+>It's a web app designed to invite book lovers that contain two pages with different sections. It is also a capstone project on the Microverse HTML/CSS module. Implement DOM using javascript methods with various tools and technologies.
 
 ### ScreenShoot Mobile Version
 ![screenshot](./Asset/screenShot/mobScreenShot.png)
