@@ -125,16 +125,21 @@ nav {
 }
 
 .home-link,
-.about-link, .program-link, .sponsor-link, .book-link {
+.about-link,
+.program-link,
+.sponsor-link,
+.book-link {
   color: var(--secondary-3);
 }
 
 .home-link:hover,
-.about-link:hover, .program-link:hover, .sponsor-link:hover, .book-link:hover {
+.about-link:hover,
+.program-link:hover,
+.sponsor-link:hover,
+.book-link:hover {
   color: var(--primary-1);
   line-height: 10px;
-  font-weight: 2px;
-  text-decoration-skip-ink: var(--primary-1) ;
+  text-decoration-skip-ink: var(--primary-1);
 }
 
 .logo {
@@ -333,12 +338,6 @@ nav {
   filter: gray;
 }
 
-.partner-section img:hover {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
-}
-
 footer {
   background-color: var(--neutral-2);
 }
@@ -493,6 +492,12 @@ footer {
   width: 35px;
   margin-bottom: 10px;
   margin-top: 20px;
+}
+
+.partner-section img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
 }
 
 .btn {
