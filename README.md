@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# dbus-first-capstone: Expo Book Fair
+# Expo Book Fair
 
->It's a web app designed to invite book lovers that contain two pages with different sections. It is also a capstone project on the Microverse HTML/CSS module. Implement DOM using javascript methods with various tools and technologies.
+>It's a web app blog that invites book lovers to participate in the book fair. The web app contains two pages, the home and about, with different sections on each page. It's also a Microverse capstone project for HTML/CSS.
 
-### ScreenShoot Mobile Version
-![screenshot](./Asset/screenShot/mobScreenShot.png)
-
-### ScreenShoot Desktop Version
+### ScreenShot:
+#### Desktop Version
 ![screenshot](./Asset/screenShot/desktopScreenShot.png)
 
+
+#### Mobile Version
+![screenshot](./Asset/screenShot/mobileScreenshot.png)
 
 
 ### Built With
@@ -28,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command `git clone https://github.com/Debas-31/dbus-first-capstone`
 - `cd repository_name` folder
-- Open `index.html` in your local browser or using Live Server in Visual Studio Code.
+
 ### 
 
 👤 **Debas Gebreslasie**
