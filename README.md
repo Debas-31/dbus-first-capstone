@@ -2,15 +2,18 @@
 
 # Expo Book Fair
 
->It's a web app blog that invites book lovers to participate in the book fair. The web app contains two pages, the home and about, with different sections on each page. It's also a Microverse capstone project for HTML/CSS.
+>It's a blog app that invites book lovers to participate in the book fair. The web app contains two pages, the home and about, with different sections on each page. It's also a Microverse capstone project for HTML/CSS.
 
 ### ScreenShot:
 #### Desktop Version
-![screenshot](./Asset/screenShot/desktopScreenShot.png)
-
+<p>
+    <img src="./Asset/screenShot/desktopScreenShot.png" />
+</p>
 
 #### Mobile Version
-![screenshot](./Asset/screenShot/mobileScreenshot.png)
+<p>
+    <img src="./Asset/screenShot/mobileScreenshot.png" width="375" height="700" />
+</p>
 
 
 ### Built With
